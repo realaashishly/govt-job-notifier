@@ -3,7 +3,7 @@ name: Check Sarkari Result Jobs
 on:
   schedule:
     # Runs at minute 0 past every hour (24 times a day)
-    - cron: '0 * * * *'
+    - cron: '30 4,14 * * *'
   # Allows manual 1-click test runs from the GitHub Actions tab
   workflow_dispatch:
 
